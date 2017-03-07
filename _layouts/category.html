@@ -1,0 +1,55 @@
+---
+layout: default
+---
+{% assign category = site.data.memex.categories[page.category] %}
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ category.name }}</h1>
+    <p>(obsahová garance: <b>{{ category.guarantorName }}</b>)</p>
+  </header>
+
+  <div class="post-content">
+  
+    <h2>Pro zájemce</h2>
+    <h3>Doporučená literatura</h3>
+    
+    <ul>
+        {% for literature in category.literature %}
+            <li>{{ literature | markdownify }}</li>
+        {% endfor %}
+    </ul>
+  
+    <h3>Doporučené aktivity</h3>
+
+    <ul>
+        {% for activity in category.activities %}
+            <li>{{ activity | markdownify }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Okruhy</h2>
+    
+    {% for set_hash in category.sets %}
+        {% assign set = set_hash[1] %}
+        <h3>[{{ set.class }}] {{ set.name }}</h3>
+        
+        <h4>Otevřená otázka</h4>
+        <p>{{ set.open }}</p>
+        
+        <h4>Uzavřené otázky</h4>    
+        <ol>
+        {% for q in set.closedQuestions %}
+            <li>
+                <dl>
+                    <dt>{{ q.question }}</dt>
+                    <dd>{{ q.answer }}</dd>
+                </dl>
+            </li>
+        {% endfor %}
+        </ol>
+        
+    {% endfor %}
+  </div>
+
+</article>

@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<div class="home">
+    <h1>Memex<sup>β</sup></h1>
+    <ul>
+        <li><a href="milestones.html">[0.1] Milníky</a>
+        <li><a href="figures.html">[0.2] Osobnosti</a>
+        <li><a href="theories.html">[0.3] Teorie</a>
+    
+        {% for category in site.data.memex.categories %}
+            <li>
+                <a href="categories/{{ category.class }}.html">
+                    [{{ category.class }}]
+                    {{ category.name }} 
+                </a>
+                
+                {% if category.guarantorName != '' %}
+                    (garance {{ category.guarantorName }})
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <p>Pozn. Struktura tohoto webu je nyní dána především pohodlností importu z původního ůložiště na webu KISKu. Po ukončení prací v tomto rozhraní bude možné doladit jak místní úložiště (nyní rozsáhlý JSON ve složce _data), tak strukturu webu (např. stránku s teoriemi).</p>
+</div>
