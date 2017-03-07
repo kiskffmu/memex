@@ -1,0 +1,51 @@
+body {
+	background-color: #111;
+	color: #eee;
+}
+
+.page-content {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 50px;
+}
+
+h1, h2, h3, h4, p, li, blockquote {
+	font-family: "Open Sans", sans-serif;
+	max-width: 40rem;
+}
+
+h2, h3, h4 {
+	margin: 3em 0 .2em;
+}
+
+h1, h2, h3, a {
+	color: yellow;
+}
+
+header h1 {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+blockquote {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.milestones b, .theories b {
+	font-size: 1.5rem;
+	color: yellow;
+}
+
+.theories h2 b {
+	font-size: inherit;
+	color: white;
+}
