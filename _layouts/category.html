@@ -41,7 +41,7 @@ layout: default
         <ol>
         {% for q in set.closedQuestions %}
             <li>
-                <dl>
+                <dl data-category="{{ set.class }}" class="question">
                     <dt>{{ q.question }}</dt>
                     <dd>{{ q.answer }}</dd>
                 </dl>

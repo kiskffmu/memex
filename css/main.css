@@ -49,3 +49,77 @@ dt {
 	font-size: inherit;
 	color: white;
 }
+
+.card {
+	position: fixed;
+	top: 0px; left: 0px;
+	right: 0px; bottom: 0px;
+	background: #111;
+	
+	background-position: center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.card .question, .card .answer {
+	font-family: "Open Sans", sans-serif;
+	background: #eee;
+	color: #111;
+	
+	text-align: center;
+	font-size: 40px;
+	overflow: hidden;
+	padding: 0px 40px;
+}
+
+.card .question p, .card .answer p {
+	max-width: 60rem;
+	margin: 100px auto;
+}
+
+.card .answer {
+	background: #111;	
+	color: #eee;
+}
+
+.playButton, .card .closeButton {
+	display: block;
+	position: absolute;
+	top: 30px; right: 30px;
+	width: 80px; height: 80px;
+	font-size: 100px;
+	line-height: 80px;
+	color: #eee;
+	text-decoration: none;
+}
+
+.card .closeButton {
+	color: #111;
+}
+
+.hidden {
+	display: none;
+}
+
+.category01 { background-image: url('/memex/img/01.png'); }
+.category02 { background-image: url('/memex/img/02.png'); }
+.category03 { background-image: url('/memex/img/03.png'); }
+.category04 { background-image: url('/memex/img/04.png'); }
+.category05 { background-image: url('/memex/img/05.png'); }
+.category06 { background-image: url('/memex/img/06.png'); }
+.category07 { background-image: url('/memex/img/07.png'); }
+.category08 { background-image: url('/memex/img/08.png'); }
+.category09 { background-image: url('/memex/img/09.png'); }
+.category10 { background-image: url('/memex/img/10.png'); }
+.category11 { background-image: url('/memex/img/11.png'); }
+.category12 { background-image: url('/memex/img/12.png'); }
+.category13 { background-image: url('/memex/img/13.png'); }
+.category14 { background-image: url('/memex/img/14.png'); }
+.category15 { background-image: url('/memex/img/15.png'); }
+.category16 { background-image: url('/memex/img/16.png'); }
+.category17 { background-image: url('/memex/img/17.png'); }
+.category18 { background-image: url('/memex/img/18.png'); }
+.category19 { background-image: url('/memex/img/19.png'); }
+.category20 { background-image: url('/memex/img/20.png'); }
