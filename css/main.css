@@ -105,6 +105,7 @@ dt {
 
 @media (max-width: 500px) {
 	.card .question, .card .answer {
+		box-sizing: border-box;
 		font-size: 20px;
 		padding: 0px 20px;
 	}
