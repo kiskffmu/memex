@@ -103,6 +103,24 @@ dt {
 	display: none;
 }
 
+@media (max-width: 500px) {
+	.card .question, .card .answer {
+		font-size: 20px;
+		padding: 0px 20px;
+	}
+	
+	.card .question p, .card .answer p {
+		margin: 40px auto;
+	}
+	
+	.playButton, .card .closeButton {
+		top: 20px; right: 20px;
+		width: 30px; height: 30px;
+		font-size: 40px;
+		line-height: 30px;
+	}
+}
+
 .category01 { background-image: url('/memex/img/01.png'); }
 .category02 { background-image: url('/memex/img/02.png'); }
 .category03 { background-image: url('/memex/img/03.png'); }

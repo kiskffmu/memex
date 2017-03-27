@@ -49,7 +49,7 @@ Memex.prototype.preparePlayButton = function() {
 	this.playButton = document.createElement('A');
 	this.playButton.classList.add('playButton');
 	this.playButton.setAttribute('href', '#');
-	this.playButton.innerHTML = '▶';
+	this.playButton.innerHTML = '▶&#xFE0E;';
 	document.querySelector('body').appendChild(this.playButton);
 	
 	this.playButton.addEventListener('click', function(e) {
@@ -77,7 +77,7 @@ Memex.prototype.prepareCard = function() {
 	this.closeButton = document.createElement('A');
 	this.closeButton.classList.add('closeButton');
 	this.closeButton.setAttribute('href', '#');
-	this.closeButton.innerHTML = '✕';
+	this.closeButton.innerHTML = '✕&#xFE0E;';
 	this.closeButton.addEventListener('click', function(e) { this.hideCard(); }.bind(this));
 	this.card.appendChild(this.closeButton);
 	
