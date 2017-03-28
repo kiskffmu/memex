@@ -3,10 +3,10 @@ layout: page
 title: Milníky
 ---
 <ul class="milestones">
-{% for ms in site.data.memex.milestones %}
+{% for ms in site.data.milestones %}
 	<li>
-		<b>{{ ms.time }} — {{ ms.short }}</b><br>
-		{{ ms.long }}
+		<h3>{{ ms.time }} — {{ ms.short }}</h3>
+		<p>{{ ms.long }}</p>
 	</li>
 {% endfor %}
 </ul>

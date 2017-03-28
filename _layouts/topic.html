@@ -1,12 +1,10 @@
 ---
 layout: default
 ---
-{% assign category = site.data.memex.categories[page.category] %}
 <article class="post">
-
   <header class="post-header">
-    <h1 class="post-title">{{ category.name }}</h1>
-    <p>(obsahová garance: <b>{{ category.guarantorName }}</b>)</p>
+    <h1 class="post-title">{{ page.name }}</h1>
+    <p>(obsahová garance: <b>{{ page.guarantorName }}</b>)</p>
   </header>
 
   <div class="post-content">
@@ -15,7 +13,7 @@ layout: default
     <h3>Doporučená literatura</h3>
     
     <ul>
-        {% for literature in category.literature %}
+        {% for literature in page.literature %}
             <li>{{ literature | markdownify }}</li>
         {% endfor %}
     </ul>
@@ -23,14 +21,14 @@ layout: default
     <h3>Doporučené aktivity</h3>
 
     <ul>
-        {% for activity in category.activities %}
+        {% for activity in page.activities %}
             <li>{{ activity | markdownify }}</li>
         {% endfor %}
     </ul>
     
     <h2>Okruhy</h2>
     
-    {% for set_hash in category.sets %}
+    {% for set_hash in page.sets %}
         {% assign set = set_hash[1] %}
         <h3>[{{ set.class }}] {{ set.name }}</h3>
         
@@ -41,7 +39,7 @@ layout: default
         <ol>
         {% for q in set.closedQuestions %}
             <li>
-                <dl data-category="{{ set.class }}" class="question">
+                <dl data-topic="{{ set.class }}" class="question">
                     <dt>{{ q.question }}</dt>
                     <dd>{{ q.answer }}</dd>
                 </dl>

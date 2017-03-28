@@ -37,7 +37,7 @@ Memex.prototype.prepareQuestions = function() {
 	var dls = document.querySelectorAll('dl.question');
 	var questions = Array.prototype.map.call(dls, function(el) {
 		return {
-			cat: el.dataset.category,
+			cat: el.dataset.topic,
 			q: el.querySelector('dt').innerHTML,
 			a: el.querySelector('dd').innerHTML
 		}

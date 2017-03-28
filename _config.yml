@@ -15,7 +15,7 @@ twitter_username: kiskffmu
 github_username:  kisk-ff-mu
 
 collections:
-  categories:
+  topics:
     output: true
 
 

@@ -3,7 +3,7 @@ layout: page
 title: Osobnosti
 ---
 <div class="figures">
-{% for fig in site.data.memex.figures %}
+{% for fig in site.data.figures %}
 	<h2>{{ fig.name }}</h2>
 	<p>
 		{% if fig.born %}*{{ fig.born }}{% endif %}
