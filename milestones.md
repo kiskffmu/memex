@@ -10,3 +10,5 @@ title: Milníky
 	</li>
 {% endfor %}
 </ul>
+
+[tisk]({{ site.printurl }}/?generator=milestones)

@@ -22,3 +22,5 @@ title: Osobnosti
 	</ul>
 {% endfor %}
 </div>
+
+[tisk]({{ site.printurl }}/?generator=figures)

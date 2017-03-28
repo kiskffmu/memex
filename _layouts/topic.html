@@ -51,3 +51,12 @@ layout: default
   </div>
 
 </article>
+
+
+{% if page.class < 10 %}
+    {% assign index = page.class | prepend: '0' %}
+{% else %}
+    {% assign index = page.class %}
+{% endif %}
+
+<p><a href="{{ site.printurl }}/?generator=category&index={{ index }}">tisk</a></p>

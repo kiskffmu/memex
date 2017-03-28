@@ -13,3 +13,5 @@ title: Teorie
     {% endfor %}
 {% endfor %}
 </div>
+
+[tisk]({{ site.printurl }}/?generator=theories)
