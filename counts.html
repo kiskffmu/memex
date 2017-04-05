@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="home">
+    <h1>Memex<sup>β</sup></h1>
+    <ul>
+        <li><a href="{{ site.baseurl }}/milestones.html">[0.1] Milníky</a> ({{ site.data.milestones | size }} karet)
+        <li><a href="{{ site.baseurl }}/figures.html">[0.2] Osobnosti</a> ({{ site.data.figures | size }} karet)
+        <li><a href="{{ site.baseurl }}/theories.html">[0.3] Teorie</a> ({{ site.data.theories.Paradigmata | size }} + {{ site.data.theories.Metateorie | size }} + {{ site.data.theories.Teorie | size }} karet)
+    
+        {% for topic in site.topics %}
+            <li>
+                <a href="{{ site.baseurl }}{{ topic.url }}">[{{ topic.class }}] {{ topic.name }}</a><br>
+                
+                {% assign setCounter = 0 %}
+                {% assign cqCounter = 0 %}
+                {% for set_hash in topic.sets %}
+                    {% assign set = set_hash[1]%}
+                    {% assign setCounter = setCounter | plus: 1 %}
+                    
+                    {% assign closedCount = set.closedQuestions | size %}
+                    {% assign cqCounter = cqCounter | plus: closedCount %}
+                {% endfor %}
+                
+                ({{ setCounter }} okruhů, {{ cqCounter }} uzavřených, {{ topic.literature | size }} zdroje, {{ topic.activities | size }} aktivity)
+            </li>
+        {% endfor %}
+    </ul>
+</div>
