@@ -7,23 +7,28 @@ layout: page
     <ul>
         <li><a href="{{ site.baseurl }}/milestones.html">[0.1] Milníky</a> ({{ site.data.milestones | size }} karet)
         <li><a href="{{ site.baseurl }}/figures.html">[0.2] Osobnosti</a> ({{ site.data.figures | size }} karet)
-        <li><a href="{{ site.baseurl }}/theories.html">[0.3] Teorie</a> ({{ site.data.theories.Paradigmata | size }} + {{ site.data.theories.Metateorie | size }} + {{ site.data.theories.Teorie | size }} karet)
+        <li><a href="{{ site.baseurl }}/theories.html">[0.3] Teorie</a> 
+        
+        {% assign t1 = site.data.theories.Teorie | size %}
+        {% assign t2 = site.data.theories.Metateorie | size %}
+        {% assign t3 = site.data.theories.Paradigmata | size %}
+        ({{ t1 }} + {{ t2 }} + {{ t3 }} = {{ t1 | plus: t2 | plus: t3 }} karet)
     
         {% for topic in site.topics %}
             <li>
                 <a href="{{ site.baseurl }}{{ topic.url }}">[{{ topic.class }}] {{ topic.name }}</a><br>
                 
-                {% assign setCounter = 0 %}
-                {% assign cqCounter = 0 %}
+                {% assign counter = 0 %}
                 {% for set_hash in topic.sets %}
                     {% assign set = set_hash[1]%}
-                    {% assign setCounter = setCounter | plus: 1 %}
-                    
                     {% assign closedCount = set.closedQuestions | size %}
-                    {% assign cqCounter = cqCounter | plus: closedCount %}
+                    {% assign counter = counter | plus: closedCount %}
                 {% endfor %}
                 
-                ({{ setCounter }} okruhů, {{ cqCounter }} uzavřených, {{ topic.literature | size }} zdroje, {{ topic.activities | size }} aktivity)
+                <b>{{ topic.sets | size }}</b> okruhů, 
+                <b>{{ counter }}</b> uzavřených, 
+                <b>{{ topic.literature | size }}</b> zdroje, 
+                <b>{{ topic.activities | size }}</b> aktivity
             </li>
         {% endfor %}
     </ul>
