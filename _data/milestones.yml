@@ -17,7 +17,7 @@
   short: výplň
   long: zde zatím chybí obsah  
   
-- time: 15000 před n. l.
+- time: 30 000 před n. l.
   short: První storytelling
   long: Nástěnné malby uchovávají první příběhy.
 - time: 6 000 před n. l.
@@ -193,7 +193,7 @@
   long: ‘Spacewar’ – první grafická PC hra.
 - time: '1962'
   short: Satelit Telstar na oběžné dráze
-  long: První komunikační satelit se vydává na oběžnou dráhu
+  long: První komunikační satelit se vydává na oběžnou dráhu.
 - time: '1963'
   short: Vznik ASCII
   long: Světlo světa spatřila první znaková sada používaná v informatice – ASCII.
@@ -214,7 +214,7 @@
   long: James Fergason využívá objev z roku 1888 a sestavuje první moderní LCD displej.
 - time: '1970'
   short: Optické vlákno
-  long: Vědci Kapany a Kao od padesátých let pracují na technologiích vedoucích k modernímu optickému vláknu.
+  long: Vědci N. S. Kapany a Ch. K. Kao od padesátých let pracují na technologiích vedoucích k modernímu optickému vláknu.
 - time: '1971'
   short: Bibliografický formát MARC
   long: V amerických knihovnách se začal používat bibliografický formát MARC.
@@ -246,7 +246,7 @@
   short: Webový prohlížeč WorldWideWeb
   long: Tim Bernes-Lee naprogramoval první webový prohlížeč „WorldWideWeb“.
 - time: '1991'
-  short: První verze Linuxového jádra.
+  short: První verze Linuxového jádra
   long: Linus Torvalds zveřejňuje kód svého projektu vytvoření volného operačního systému.
 - time: '1993'
   short: První MP3
@@ -261,7 +261,7 @@
   short: Akreditace informační vědy v ČR
   long: Informační věda akreditována poprvé v ČR pro univerzitní výuku.
 - time: '1998'
-  short: Založeí Internet Archive
+  short: Založení Internet Archive
   long: 'Vznikl projekt Internet Archive, který systematicky archivuje obsah webu'
 - time: '1998'
   short: Vyhledávač Google
