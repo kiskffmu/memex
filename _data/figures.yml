@@ -1,10 +1,10 @@
 - name: Joseph Carl Robnett Licklider
   born: '1915'
   deceased: '1990'
-  quote: 'Zdá se přiměřené očekávat, že tak za 10 až 15 let vznikne „středisko myšlení“, které v sobě spojí funkce dnešních knihoven a předpokládané pokroky v ukládání a vyhledávání informací.'
+  quote: 'Zdá se přiměřené očekávat, že tak za 10 až 15 let vznikne „středisko myšlení“, které v sobě spojí funkce dnešních knihoven a předpokládaný pokrok v ukládání a vyhledávání informací.'
   quoteSource: ''
   bio:
-    - Vytvořil koncept „intergalaktické počítačové sítě“ a rozvinul ho v projektu Internet. Jeho koncept vedl až ke vzniku sítě ARPANET.
+    - Vytvořil koncept „intergalaktické počítačové sítě“ a rozvinul jej v projektu Internet. Jeho koncept vedl až ke vzniku sítě ARPANET.
     - Nastínil kroky nutné k digitalizaci knihoven (kniha Libraries of the Future).
     - Přispěl k rozvoji oboru Interakce člověk - počítač. Prosazoval ideu počítače jako partnera při řešení problémů.
     - Již v 60. letech 20. st. přišel s myšlenkou time-sharingu – jeden počítač může sloužit více lidem.
@@ -15,7 +15,7 @@
   quoteSource: null
   bio:
     - Zkoumal teoretickou strukturu informační vědy.
-    - 'Zabýval se studiem infometrie, kdy prosazoval nutnost nových přístupů k její analýze ve formě jím navržených logaritmických modelů.'
+    - 'Zabýval se studiem infometrie, kde prosazoval nutnost nových přístupů k její analýze ve formě jím navržených logaritmických modelů.'
     - 'Vytvořil základní rovnici informační vědy K[S] + ΔI = K [S+ΔS], v níž se snažil zachytit vztah mezi objektivním a subjektivním poznáním – jak naše stávající poznání ovlivňuje získávání nových poznatků.'
     - Spolu s československým vědcem Janem Vlachým získal ocenění Derek John de Solla Price Award (1989).
 - name: Vannevar Bush
@@ -46,7 +46,7 @@
   quote: 'Nová oblast vědeckého bádání, kterou zde označujeme jako sociální epistemologie, se zaměřuje na analýzu produkce, distribuce a využívání intelektuálních výtvorů v podstatě stejným způsobem, jakým je už dlouhou dobu zkoumána produkce, distribuce a využívání materiálních výtvorů.'
   quoteSource: null
   bio:
-    - 'Spolupracovala s Jesse Hauk Shera, se kterým napsala článek Foundations of a Theory of Bibliography (1952), v němž představili koncept tzv. sociální epistemologie.'
+    - 'Spolupracovala s Jesse Hauk Sherou, se kterým napsala článek Foundations of a Theory of Bibliography (1952), v němž představili koncept tzv. sociální epistemologie.'
     - 'Sociální epistemologie definuje vztahy mezi ekonomikou, sociologií, psychologií a tradiční epistemologií a slouží jako rámec pro efektivní šetření problémů.'
     - Vyučovala na Graduate Library School of the University of Chicago a na School of Library Science at Western Reserve University in Ohio.
     - Byla editorkou časopisu Library Quarterly.
@@ -110,7 +110,7 @@
   quoteSource: null
   bio:
     - 'Otec Teorie informace, zavedl matematické pojetí informace (A mathematical theory of communication - psáno s Warrenem Weaverem),'
-    - 'Zakladatel teorie logických sítí, kterou otevřel prostor rozvoj teorie konečných automatů a teorii číslicových systémů.'
+    - 'Zakladatel teorie logických sítí, kterou otevřel prostor rozvoji teorie konečných automatů a teorii číslicových systémů.'
     - Poprvé použil slovo bit.
     - 'Sestrojil první počítač schopný se učit z vlastní zkušenosti, tzv. Shannonovu myš.'
 - name: Jela Steinerová
@@ -120,7 +120,7 @@
   quoteSource: null
   bio:
     - Průkopnice v oblasti výzkumů informačního chování v České republice a na Slovensku.
-    - 'Zabývá se informační ekologií jako činností zahrnující tvorbu, komunikování, rozšiřování a využívání informací na úrovni jednotlivce, skupiny nebo organizace s cílem smysluplne regulovat informační toky.'
+    - 'Zabývá se informační ekologií jako činností zahrnující tvorbu, komunikování, rozšiřování a využívání informací na úrovni jednotlivce, skupiny nebo organizace, s cílem smysluplně regulovat informační toky.'
     - 'V současnosti se zabývá vztahy informační, otevřené a digitální vědy.'
     - Je odbornicí na metodologii informační vědy.
 - name: Alan Turing
@@ -130,7 +130,7 @@
   quoteSource: null
   bio:
     - 'Logik, matematik, informatik a kryptograf.'
-    - 'Vymyslel tzv. Turingův stroj, primitivní počítač, který pomocí jedné pásky (paměti) může řešit nejjednodušší úkoly. Funguje jako konečný automat se třemi možnými výstupy - akceptovat, neakceptovat, zacyklení.'
+    - 'Vymyslel tzv. Turingův stroj, primitivní počítač, který pomocí jedné pásky (paměti) může řešit nejjednodušší úkoly. Funguje jako konečný automat se třemi možnými výstupy – akceptovat, neakceptovat, zacyklení.'
     - Pracoval na analýze distinkce člověka a počítače během textového dialogu (Turingův test).
     - 'Vedl tým, který prolomil kódování Enigma.'
     - 'Byl homosexuál a byl za to v tehdy konzervativní Velké Británii odsouzen, což jej přivedlo až k sebevraždě.'
@@ -150,12 +150,12 @@
   quote: 'Antilopa volně běhající po afrických pláních by podle Brietové neměla být považována za dokument. Pokud bychom ji však odchytili, odvezli do zoo a učinili z ní předmět zkoumání, pak by se z ní stal dokument. Stala by se fyzickým důkazem, který by sloužil pro účely těch, kdo se jí zabývají. Můžeme tedy říci, že vědecké články o antilopě jsou sekundárními dokumenty, neboť antilopa jako taková představuje primární dokument.'
   quoteSource: null
   bio:
-    - Aktivně se podílela na vzniku nového oboru - dokumentalistiky. Stála u zrodu Union Française des Organismes de Documentation (1931) a prosazovala profesionální vzdělávání pro tuto novou oblast. Tím si vysloužila přezdívku „Madame Documentation“.
+    - Aktivně se podílela na vzniku nového oboru – dokumentalistiky. Stála u zrodu Union Française des Organismes de Documentation (1931) a prosazovala profesionální vzdělávání pro tuto novou oblast. Tím si vysloužila přezdívku „Madame Documentation“.
     - 'Jednou z nejdůležitějších myšlenek bylo, že dokumenty mohou být interpretovány různými lidmi různými způsoby, podle toho za jakým účelem je chtějí použít.'
 - name: Paul Otlet
   born: '1868'
   deceased: '1944'
-  quote: 'Kdokoli, z jakkoli vzdáleného místa, by byl schopen číst jakýkoli text, zahrnující širší kontext nebo text omezený na předmět, který by jej zajímal, přičemž tento text by byl promítán na individuální obrazovku. Tímto způsobem by mohl kdokoli ze svého křesla přemítat o celku stvoření nebo o jeho konkrétních částech.'
+  quote: 'Kdokoli, z jakkoli vzdáleného místa, by byl schopen číst jakýkoli text, zahrnující širší kontext nebo text omezený na předmět, který by jej zajímal, přičemž tento text by byl promítán na individuální obrazovku. Tímto způsobem by mohl kdokoli ze svého křesla přemítat o celku stvoření, nebo o jeho konkrétních částech.'
   quoteSource: null
   bio:
     - 'Zakladatel dokumentalistiky, předchůdkyně informační vědy.'
@@ -264,7 +264,7 @@
   quoteSource: null
   bio:
     - 'Od dětství se kromě matematiky zajímal také o mechanické hračky, které sám vynalézal (stroj, pomocí kterého mohl chodit ve vodě jako husy).'
-    - 'Sestavil model diferenčního stroje, který měl nejen počítat, ale výpočty i tisknout. Funkční prototyp nikdy nesestrojil. Dle plánů byl ale sestaven v roce 1991 a fungoval.'
+    - 'Sestavil model diferenčního stroje, který měl nejen počítat, ale výpočty i tisknout. Funkční prototyp nikdy nesestrojil. Dle plánů byl však sestaven v roce 1991 a fungoval.'
     - 'Naplánoval analytický stroj, který pracoval pomocí děrných štítků. Ada Lovelace pro něj vytvořila kompletní program. Nebyl za jeho života sestrojen.'
     - 'Vytvořil jako první tabulky úmrtnosti, čímž dal základ pro pojišťovnictví.'
 - name: Tim Berners-Lee
@@ -277,7 +277,7 @@
     - Se svými spolupracovníky navrhl jazyk pro vytváření webových stránek (HTML) a definoval protokol pro přenos dat (HTTP).
     - Ředitel konsorcia W3C a organizace World Wide Web Foundation.
     - Spoluzakladatel a prezident Open Data Institutu v Londýně.
-    - Od královny Alžběty II. byl povýšen do šlechtického stavu a získal Řád za zásluhy (Order of Merit).
+    - Královnou Alžbětou II. byl povýšen do šlechtického stavu a získal Řád za zásluhy (Order of Merit).
 - name: Christine L. Borgman
   born: '1951'
   deceased: null
@@ -286,7 +286,7 @@
   bio:
     - 'Věnuje se vytváření, používání a správě digitálních dat a jejich vlivu na vědeckou činnost.'
     - 'Autorka více než 200 publikací věnujících se informační vědě, počítačové vědě a vědecké komunikaci (Scholarship in the Digital Age: Information, Infrastructure, and the Internet, From Gutenberg to the Global Information Infrastructure: Access to Information in a Networked World).'
-    - Všechny její knihy získaly prestižní ceny z oblasti informační vědy a proto je považována za jednu z nejvýznamnějších vědkyň oboru v současnosti.
+    - Všechny její knihy získaly prestižní ceny z oblasti informační vědy, a proto je považována za jednu z nejvýznamnějších vědkyň oboru v současnosti.
     - 'Profesorka informačních studií na UCLA (University of California, Los Angeles).'
 - name: Douglas Carl Engelbart
   born: '1925'
@@ -310,7 +310,7 @@
 - name: Anthony Debons
   born: '1916'
   deceased: '2013'
-  quote: 'Informační věda je vědecká disciplína, která usiluje o poznání principů a zákonů, kterými se řídí rozšiřování lidských schopností skrze technologie.'
+  quote: 'Informační věda je vědecká disciplína, která usiluje o poznání principů a zákonů, kterými se řídí rozšiřování lidských schopností prostřednictvím technologie.'
   quoteSource: null
   bio:
     - Inicioval vznik samostatného magisterského oboru Informační vědy na univerzitě v Daytonu a následně prvního doktorského programu Informační vědy (IDIS) v Pittsburghu (1973).
@@ -331,7 +331,7 @@
 - name: George Siemens
   born: '1970'
   deceased: null
-  quote: 'Rozhodování je samo o sobě procesem učení se. Volba toho, co se naučím, a význam získávaných informací jsou nahlíženy skrze optiku měnící se reality. I když se nám určitá odpověď jeví dnes jako správná, zítra už může být nesprávná v důsledku změn v informačním klimatu, které má vliv na rozhodnutí.'
+  quote: 'Rozhodování je samo o sobě procesem učení se. Volba toho, co se naučím, a význam získávaných informací, jsou nahlíženy optikou měnící se reality. I když se nám určitá odpověď jeví dnes jako správná, zítra už může být nesprávná v důsledku změn v informačním klimatu, které má vliv na rozhodnutí.'
   quoteSource: null
   bio:
     - Jeden z prvních tvůrců MOOC kurzů.
@@ -341,7 +341,7 @@
 - name: Paul G. Zurkowski
   born: '1932'
   deceased: null
-  quote: 'Informace není znalost; jedná se o koncepty nebo myšlenky, které vstupují do pole vnímání člověka, jsou vyhodnoceny a integrovány, přičemž posilují nebo mění koncepci reality anebo také schopnost jednat daného jednotlivce. Stejně jako krása spočívá v oku pozorovatele, informace spočívá v mysli uživatele.'
+  quote: 'Informace není znalost; jedná se o koncepty nebo myšlenky, které vstupují do pole vnímání člověka, jsou vyhodnoceny a integrovány, přičemž posilují nebo mění koncepci reality anebo také schopnost daného jednotlivce jednat. Stejně jako krása spočívá v oku pozorovatele, informace spočívá v mysli uživatele.'
   quoteSource: null
   bio:
     - 'Jako první definoval pojem informační gramotnost (1974). Na problematiku se nedíval pouze knihovní optikou, ale prosazoval univerzální přístup.'
@@ -364,7 +364,7 @@
   quote: 'I ti nejlepší designéři vytváří úspěšné produkty pouze tehdy, když se jim podaří vyřešit problémy, které je skutečně potřeba řešit. Skvělé rozhraní aplikované na špatné prvky nebude fungovat.'
   quoteSource: null
   bio:
-    - Zabývá se použitelností webu a problematikou vylepšování uživatelského rozhraní
+    - Zabývá se použitelností webu a problematikou vylepšování uživatelského rozhraní.
     - 'Stanovil pět kvalitativních komponent použitelnosti (naučitelnost, účinnost, zapamatovatelnost, nízká míra chybovosti, spokojenost).'
     - 'Zavedl „discount usability engineering“, což je proces pro rychlé a levné vylepšování uživatelského rozhraní.'
     - 'Vytvořil řadu metod pro testování použitelnosti webu, včetně heuristické analýzy.'
@@ -387,7 +387,7 @@
   bio:
     - V 60. letech 20. století položil základy moderního informačního průmyslu.
     - Zakladatel databázového centra Dialog Information Retrieval Services (1972).
-    - 'Významně přispěl k rozvoji online vyhledávání tak, jak ho známe dnes.'
+    - 'Významně přispěl k rozvoji online vyhledávání tak, jak jej známe dnes.'
     - 'Podílel se na vývoji služby Dialog, kterou používá např. ProQuest nebo Thompson Reuters. Bez něj by pravděpodobně veškeré internetové vyhledávání vypadalo úplně jinak.'
     - Společnost ProQuest každoročně uděluje Roger K. Summit Scholarship studentům knihovnictví a informačních věd.
 - name: Robert Saxton Taylor
@@ -418,7 +418,7 @@
   quoteSource: null
   bio:
     - Působí jako profesor informační etiky na University of Oxford.
-    - Je označován jako zakladatel filozofie informace.
+    - Je označován za zakladatele filozofie informace.
     - 'Informaci podle něj můžeme nahlížet ze čtyř úhlů. Jako informaci o něčem (odjezdy vlaků), i. jako něco (DNA, otisky prstů), i. jako prostředek (algoritmy) nebo i. v něčem (vzor).'
     - Zabývá se také informační etikou a filozofií technologií.
     - Jeho celoživotním projektem je zatím nedokončená tetralogie Principia Philosophiae Informationis.
@@ -426,7 +426,7 @@
 - name: Robert Hauptman
   born: '1941'
   deceased: null
-  quote: 'Ochrana a podpora svobodného toku informací je chvályhodná, ale mohu nastat situace, kdy je eticky nepřijatelná.'
+  quote: 'Ochrana a podpora svobodného toku informací je chvályhodná, ale mohou nastat situace, kdy je eticky nepřijatelná.'
   quoteSource: null
   bio:
     - Patří k zakladatelům oboru informační etika.
@@ -449,12 +449,12 @@
 - name: Herbert Alexander Simon
   born: '1916'
   deceased: '2001'
-  quote: 'Lidské bytosti nahlížené jako systémy vykazující určité chování jsou docela prosté. Zjevná složitost našeho chování v průběhu času je do značné míry odrazem složitosti prostředí, ve kterém se nacházíme.“"'
+  quote: 'Lidské bytosti nahlížené jako systémy vykazující určité chování jsou docela prosté. Zjevná složitost našeho chování v průběhu času je do značné míry odrazem složitosti prostředí, ve kterém se nacházíme.'
   quoteSource: null
   bio:
     - 'Položil základy kognitivní vědy a umělé inteligence, teorie zpracování informací. Získal Nobelovu cenu za ekonomii za výzkum rozhodovacích procesů v rámci organizace (1978).'
     - 'Myšlení je procesem zpracování informací, provádí logické operace s koncepty a symboly. Jeho produkční systém se skládá ze schémat a pravidel organizovaných do programů.'
-    - 'Mysl, stejně jako počítač, zpracovává informace - kognitivní proces lze simulovat v počítači. Pomocí počítačových programů s. A. Newellem modeloval myšlení a řešení problémů.'
+    - 'Mysl, stejně jako počítač, zpracovává informace – kognitivní proces lze simulovat v počítači. Pomocí počítačových programů s. A. Newellem modeloval myšlení a řešení problémů.'
     - Podílel se na vzniku prvního počítačového programu umělé inteligence Logic Theory Machine (1956).
 - name: Don R. Swanson
   born: '1924'
@@ -462,8 +462,8 @@
   quote: 'Literatura různých specializovaných vědeckých oborů má sklon vyvíjet se nezávisle na ostatních oborech, avšak propojenost, která je vlastní fyzickému světu, naznačuje, že mezi literární produkcí těchto odlišných oborů existují plodné, nezáměrné logické souvislosti.'
   quoteSource: null
   bio:
-    - V počátcích své výzkumné činnosti se zaměřoval na knihovní katalogy
-    - 'Přišel s revoluční myšlenkou, že spousta nových vědeckých objevů v biomedicíně může být uskutečněna z již existujících výzkumů nelezením nových souvislostí (Literature-based discovery).'
+    - V počátcích své výzkumné činnosti se zaměřoval na knihovní katalogy.
+    - 'Přišel s revoluční myšlenkou, že mnoho nových vědeckých objevů v biomedicíně může být uskutečněno z již existujících výzkumů nelezením nových souvislostí (Literature-based discovery).'
     - Propojování dvou různých poznatků z nezávislých výzkumů se označuje jako Swanson linking.
     - 'Podílel se na vývoji softwaru Arrowsmith, který pomáhal nalézat nové vztahy mezi články z databáze Medline.'
 - name: Richard Matthew Stallman
@@ -472,7 +472,7 @@
   quote: 'Když hovoříme o svobodném softwaru,  jde o svobodu, ne o cenu.'
   quoteSource: null
   bio:
-    - 'Zakladatel hnutí svobodného softwaru (1983), organizace Free Software Foundation (1985) a projektu GNU (1983) v jehož rámci napsal GNU svobodný operační systém.'
+    - 'Zakladatel hnutí svobodného softwaru (1983), organizace Free Software Foundation (1985) a projektu GNU (1983), v jehož rámci napsal GNU svobodný operační systém.'
     - 'Prosazuje softwarovou svobodu ve smyslu svobodně užívat, studovat, rozšiřovat a upravovat software.'
     - 'Tvůrce konceptu copyleft licence, která je základem GPL a GFDL. Copyleft znamená, že při vytvoření odvozeného díla z jiného díla pod licencí copyleft je nutné, aby odvozené dílo licenci zachovalo.'
     - 'Složil píseň Free Software Song, která je nepsanou hymnou free softwaru.'
@@ -485,9 +485,9 @@
     - Bojoval za neomezený přístup k informacím na internetu.
     - Podílel se na vývoji internetových nástrojů RSS a Reddit a na tvorbě odlehčeného značkovacího jazyka Markdown.
     - Angažoval se v kampani proti přijetí zákona SOPA (Stop Online Piracy Act).
-    - 'Na protest stáhl z digitální knihovny JSTOR 4 miliony článků, výzkum financovaný z daní obyvatel by podle něj měl být veřejně přístupny.'
+    - 'Na protest stáhl z digitální knihovny JSTOR 4 miliony článků, výzkum financovaný z daní obyvatel by podle něj měl být veřejně přístupný.'
     - Pro porušení autorských práv mu hrozilo až 35 let vězení.
-    - Pod tlakem soudů a z něj vycházejících depresí spáchal sebevraždu.
+    - Pod tlakem soudů a z něj vycházejících depresí, spáchal sebevraždu.
 - name: Melvil Dewey
   born: '1851'
   deceased: '1931'
@@ -497,7 +497,7 @@
     - 'Navrhnul a vytvořil systém pro organizaci knih v knihovně, tzv. Deweyho desetinný systém (1873-76).'
     - V Bostonu založil knihovní společnost Library Bureau (1876) a byl jedním ze zakládajících členů American Library Association (1876).
     - Založil knihovnické periodikum The Library Journal (1877).
-    - Zřídil druhou nejstarší knihovnickou školu na světě - School of Library Economy na Columbia University (1887).
+    - Zřídil druhou nejstarší knihovnickou školu na světě – School of Library Economy na Columbia University (1887).
     - 'Angažoval se v organizaci pro zjednodušení anglického hláskování (spelling), své jméno zjednodušil z Melville na Melvil.'
 - name: Birger Hjørland
   born: '1947'
@@ -517,7 +517,7 @@
   bio:
     - 'Indický knihovník, který se významně zasadil o rozvoj knihovnictví.'
     - 'Sepsal pět zákonů knihovnictví, které jsou podrobněji rozvedeny v knize stejného jména.'
-    - 'Dalším významným počinem je dvojtečkové třídění (Colon classification), které vytvořil v roce 1933 a které poprvé představuje fasetovou teorii organizace dokumentů. Fasety vyjadřují vlastnosti použité pro seskupování pojmů podle jejich podstaty (osoba, hmota, energie, prostor a čas).'
+    - 'Dalším významným počinem je dvojtečkové třídění (Colon classification), které vytvořil v roce 1933, a které poprvé představuje fasetovou teorii organizace dokumentů. Fasety vyjadřují vlastnosti použité pro seskupování pojmů podle jejich podstaty (osoba, hmota, energie, prostor a čas).'
     - Žil velmi skromně a v knihovně chodil bos.
 - name: Mortimer Taube
   born: '1910'
@@ -536,7 +536,7 @@
   bio:
     - 'Pracoval jako vynálezce pro IBM, je držitelem 80 patentů.'
     - Vyvinul Luhnův scanner (1952) – elektronický systém vyhledávání informací.
-    - Jako první použil termín business inteligence v článku A Business Intelligence System (1958) a koncept adresného rozšiřování informací - SDI v článku Selective Dissemination of New Scientific Information with the Aid of Electronic Processing Equipment (1959).
+    - Jako první použil termín business inteligence v článku A Business Intelligence System (1958) a koncept adresného rozšiřování informací – SDI v článku Selective Dissemination of New Scientific Information with the Aid of Electronic Processing Equipment (1959).
     - 'Vytvořil novou techniku pro indexaci – KWIC (Keyword-in-Context), kterou využil k vytvoření první publikace na světě zpracované pomocí počítače (Chemical titles, 1960).'
     - Jako první začal používat vážení termínů (každý termín má pro význam textu různou váhu).
 - name: Marcia J. Bates
@@ -555,7 +555,7 @@
   quoteSource: null
   bio:
     - 'Zabývá se především výzkumem v oblasti digitálních knihoven, informačního chování a interakce mezi člověkem a vyhledávacími systémy.'
-    - 'Nejvýznamnějším dílem je teorie informačního chování vycházející z anomálního stavu poznání - ASK (Anomalous State of Knowledge), kterou publikoval poprvé v roce 1980.'
+    - 'Nejvýznamnějším dílem je teorie informačního chování, vycházející z anomálního stavu poznání – ASK (Anomalous State of Knowledge), kterou publikoval poprvé v roce 1980.'
     - Profesor na School of Communication and Information at Rutgers University.
 - name: Cyril William Cleverdon
   born: '1914'
@@ -574,7 +574,7 @@
   quoteSource: null
   bio:
     - 'Autorka teorie Sense-making, kterou rozvinula při výzkumu informačního chování.'
-    - 'Zkušenosti z výzkumu v oblasti komunikací zúročila v práci zaměřené na referenční knihovníky, kdy cílem jejich dotazování je pomoci uživatelům přemostit mezeru ve znalostech (sense-making).'
+    - 'Zkušenosti z výzkumu v oblasti komunikací zúročila v práci zaměřené na referenční knihovníky, kde cílem jejich dotazování je pomoci uživatelům přemostit mezeru ve znalostech (sense-making).'
     - 'Ve svých výzkumech se věnovala také informační chudobě, nerovnostem a masovým kampaním.'
     - Jako první žena v historii se stala prezidentkou International Communication Association (1986).
     - Profesorka School of Communication na Ohio State University.
@@ -586,7 +586,7 @@
   bio:
     - Podílel se na Cranfieldských experimentech.
     - 'Pracoval na hodnocení projektu MEDLARS, což je systém určený pro analýzu a vyhledávání lékařských časopisů (Evaluation of the MEDLARS Demand Search Service, 1968).'
-    - 'Na základě své práce navrhnul 6 kritérií pro hodnocení úspěšnosti systémů na vyhledávání informací (pokrytí, úplnost, přesnost, doba odezvy, uživatelská náročnost, formát zobrazení).'
+    - 'Na základě své práce navrhnul 6 kritérií pro hodnocení úspěšnosti systémů pro vyhledávání informací (pokrytí, úplnost, přesnost, doba odezvy, uživatelská náročnost, formát zobrazení).'
     - Emeritní profesor Graduate School of Library and Information Science na University of Illinois.
 - name: Gerard Salton
   born: '1927'
@@ -601,7 +601,7 @@
 - name: Brian Campbell Vickery
   born: '1918'
   deceased: '2009'
-  quote: 'Ani citace, ani požadavky na výpůjčku nejsou adekvátním měřítkem využívání literatury velkou komunitou. Každý z nich představuje pouze ukazatel osvětlující určitý aspekt užívání, který v sobě ale zahrnuje určitou předpojatost. Vyváženější pohled můžeme získat díky společnému zkoumání více ukazatelů.'
+  quote: 'Ani citace, ani požadavky na výpůjčku nejsou adekvátním měřítkem využívání literatury velkou komunitou. Každý z nich představuje pouze ukazatel osvětlující určitý aspekt užívání, který v sobě však zahrnuje určitou předpojatost. Vyváženější pohled můžeme získat díky společnému zkoumání více ukazatelů.'
   quoteSource: null
   bio:
     - 'Britský informační vědec zabývající se vyhledáváním a klasifikací informací, informačními systémy a komunikací informací mezi odborníky. Původně byl chemik.'
@@ -645,7 +645,7 @@
   quoteSource: null
   bio:
     - Zakladatel bibliometrie a scientometrie. Původem chemik.
-    - 'Navrhoval, aby se systematicky shromažďovaly citace vědeckých publikací. To jej vedlo k vytvoření prvního vědeckého citačního indexu – Science Citation index (1963), který následně umožnil počítat impact faktor.'
+    - 'Navrhoval, aby se systematicky shromažďovaly citace vědeckých publikací. To ho vedlo k vytvoření prvního vědeckého citačního indexu – Science Citation index (1963), který následně umožnil počítat impact faktor.'
     - Založil Institute for Scientific Information (1960).
     - Je zakládajícím redaktorem časopisu The Scientist (1986).
     - 'Vyvinul a patentoval systém HistCite, který slouží pro bibliometrickou analýzu a informační vizualizaci.'
@@ -658,8 +658,8 @@
   bio:
     - 'Původem chemik, který se věnoval řadě dalších oblastí od evoluční biologie, ekologie, přes matematiku, statistiku až po bibliometrii.'
     - 'Zabýval se rozložením populace z hlediska věku, porodnosti a úmrtnosti.'
-    - 'Vytvořil Lotkův zákon, který říká, že jak je rozložen počet autorů podle jejich publikační produkce. (The frequency distribution of scientific productivity, 1926).'
-    - Byl prezidentem American Statistical Association
+    - 'Vytvořil Lotkův zákon, který říká, jak je rozložen počet autorů podle jejich publikační produkce (The frequency distribution of scientific productivity, 1926).'
+    - Byl prezidentem American Statistical Association.
 - name: George Kingsley Zipf
   born: '1902'
   deceased: '1950'
@@ -670,13 +670,13 @@
     - 'Na základě svých výzkumů zformuloval Zipfův zákon o vztahu mezi pořadím klíčových slov uspořádaných podle frekvence jejich výskytů, který byl později využit při automatickém  indexování.'
     - 'Studoval lidské chování a vyslovil Princip nejmenšího úsilí, který řadí k základním principům ovlivňujícím různé chování jednotlivců i kolektivu.'
     - Nikdy si nekupoval knihy a chodil raději do knihoven.
-- name: Lev Manovich        1960
+- name: Lev Manovich
   born: '1960'
   deceased: null
   quote: 'Jakékoli jedinečné vyobrazení, které si přejete, již pravděpodobně existuje na internetu nebo v nějaké databázi… problémem, se kterým se dnes potýkáme, již není, jak vytvořit  to pravé vyobrazení, ale jak najít to, které už existuje.'
   quoteSource: null
   bio:
-    - 'Umělec, počítačový grafik, programátor, teoretik nových médií a profesor computer science na City University of New York.'
+    - 'Umělec, počítačový grafik, programátor, teoretik nových médií a profesor Computer Science na City University of New York.'
     - 'Ve své knize The Language of New Media (2001) představil první systematickou teorii nových médií a definoval jejích pět principů – číselná reprezentace, modularita, automatizace, variabilita, transkódování.'
     - Založil Software Studies Initiative (2007).
     - 'Ve svých výzkumech se věnuje také oblasti digital humanities, datovým vizualizacím a software studies.'
@@ -710,10 +710,10 @@
   bio:
     - Svou prací významně přispěl k znovunalezení a šíření českého jazyka v době národního obrození.
     - 'V roce 1789 začal vydávat Pražské poštovské noviny, později přejmenovány na Krameriovy c.k. vlastenecké Noviny.'
-    - 'Založil první ryze české nakladatelství v Českých zemích – Česká expedice, které vydávalo hlavně zábavnou a poučnou literaturu. Oblíbené byly Krameriovy kalendáře.'
+    - 'Založil první ryze české nakladatelství v českých zemích – Česká expedice, které vydávalo hlavně zábavnou a poučnou literaturu. Oblíbené byly Krameriovy kalendáře.'
     - 'Je podle něj pojmenován projekt Národní knihovny, jehož účelem je digitalizace kulturního dědictví ČR.'
 - name: Lisa M. Given
-  born: null
+  born: '1970'
   deceased: null
   quote: 'Přijetím holistického pohledu na informační interakce uživatelů mohou vědci a knihovníci nejlépe rozhodovat o tom, jaký druh služeb uživatelé požadují.'
   quoteSource: null
@@ -725,12 +725,12 @@
 - name: Elfreda Chatman
   born: '1942'
   deceased: '2002'
-  quote: 'Život v kruhu znamená život v rámci přijatelné míry přiblížení a nepřesnosti. Je to život žitý s velkou mírou tolerance vůči nejednoznačnosti. Zároveň je ale prožíván ve světě, kde je většina jevů brána jako samozřejmost. Události jsou vnímány jako přiměřené a do určité míry předvídatelné. Je to svět, ve kterém většina událostí zapadá do přirozeného řádu věcí.'
+  quote: 'Život v kruhu znamená život v rámci přijatelné míry přiblížení a nepřesnosti. Je to život žitý s velkou mírou tolerance vůči nejednoznačnosti. Zároveň je však prožíván ve světě, kde je většina jevů brána jako samozřejmost. Události jsou vnímány jako přiměřené a do určité míry předvídatelné. Je to svět, ve kterém většina událostí zapadá do přirozeného řádu věcí.'
   quoteSource: null
   bio:
     - Do výzkumů informačního chování vnesla etnografický přístup.
     - Zaměřovala se na minoritní skupiny a na studium informačního chování v kontextu každodenního života.
-    - 'Vytvořila tři teorie - Informační chudoba, Život v kruhu, Normativní chování, které obsahově a metodologicky čerpají ze sociální teorie.'
+    - 'Vytvořila tři teorie – Informační chudoba, Život v kruhu, Normativní chování, které obsahově a metodologicky čerpají ze sociální teorie.'
     - 'Mimo to ze sociologie uvádí do informační vědy teorii malého světa, podle níž jsou účastníci z malých světů spojováni společnými názory a obavami z okolního světa.'
 - name: Thomas Samuel Kuhn
   born: '1922'
@@ -738,14 +738,13 @@
   quote: Všem významným průlomům v lidské činnosti předcházelo prolomení ledů starého způsobu myšlení.
   quoteSource: null
   bio:
-    - 'Zakladatel moderního pojetí teorie vědy, autor pojmů jako je vědecká revoluce, paradigma, anomálie, normální věda.'
-    - (viz jeho nejvlivnější práce Struktura vědeckých revolucí).
+    - 'Zakladatel moderního pojetí teorie vědy, autor pojmů jako je vědecká revoluce, paradigma, anomálie, normální věda (viz jeho nejvlivnější práce Struktura vědeckých revolucí).'
     - Poznání i věda se podle něj vyvíjejí diskontinuálně.
     - Je autorem holistického přístupu ke studiu vědy a lidského poznání.
     - 'Vystudoval fyziku, z níž čerpá nejvíce faktů ke své filozofické pozici.'
     - 'Věnoval se především tomu, jak se z dat vytvářejí na základě různých kontextů a předporozumění informace, které slouží pro řešení konkrétních problémů.'
     - 'Pád teorie či paradigmatu tak neznamená ztrátu dat, ale jen jejich reinterpretaci.'
-    - 'Data jsou pro vědu zásadní a je třeba s nimi pracovat tak, aby byly transparentně přístupná pro různé paradigmatické přístupy..'
+    - 'Data jsou pro vědu zásadní a je třeba s nimi pracovat tak, aby byla transparentně přístupná pro různé paradigmatické přístupy..'
 - name: Gregory Bateson
   born: '1904'
   deceased: '1980'
@@ -754,7 +753,7 @@
   bio:
     - 'Anglický antropolog, sociální vědec, lingvista, kybernetik, filozof, který ovlivnil celou řadu oborů.'
     - 'Jeho velkým přínosem bylo myšlení v souvislostech, propojování jednotlivostí a nalézání vztahů a kontextu.'
-    - Podle něj jsou vztahy podstatou živého světa a nejlepší cestou pro jejich pochopení je vyprávění příběhů.
+    - Podle něj jsou vztahy podstatou živého světa a nejlepší cestou pro jejich pochopení, je vyprávění příběhů.
     - 'V souvislosti se studiem schizofrenie vytvořil teorii dvojité vazby (double-bind), která se uplatňuje v komunikaci.'
     - Manžel slavné antropoložky Margaret Mead. Jeho dcera o něm natočila film An Ecology of Mind.
 - name: Noam Chomsky
@@ -774,7 +773,7 @@
   quoteSource: null
   bio:
     - 'Původem ruský lingvista, který se zabýval sémiotikou, strukturální poetikou, otázkami komunikace a dětskou řečí.'
-    - 'Podle jeho teorie komunikace je součástí každého jazykového projevu 6 složek komunikace (kontext, vlastní sdělení, mluvčí adresát, kanál, kód) a na každou z nich je navázána jedna jazyková funkce (referenční, poetická, expresivní, konativní, fatická, metalingvistická).'
+    - 'Podle jeho teorie komunikace je součástí každého jazykového projevu 6 složek komunikace (kontext, vlastní sdělení, mluvčí, adresát, kanál, kód) a na každou z nich je navázána jedna jazyková funkce (referenční, poetická, expresivní, konativní, fatická, metalingvistická).'
     - 'Řešil otázky obecné jazykové teorie, srovnával jednotlivé slovanské jazyky.'
     - Spoluzaložil Pražský lingvistický kroužek (1926).
     - 'Na základě jeho analýzy komunikace jsou konstruovány dialogové a informační systémy, její výsledky se využívají ve filosofii informace i pro modelování komunikačních a informačních modelů..'
@@ -787,7 +786,7 @@
     - 'Proslavil se díky výzkumu v oblasti dohledu (surveillance studies), neboli toho, jak jsou naše osobní data ukládána a zpracovávána novými technologiemi v rozsáhlých databázích (The Electronic Eye: The Rise of Surveillance Society, 1994; Surveillance Society: Monitoring Everyday Life, 2001; Surveillance after Snowden, 2015).'
     - 'Zaměřuje se na informační společnost, globalizaci, informační technologie.'
     - Založil elektronický časopis Surveillance &amp; Society (2002).
-    - Profesor sociologie a ředitel Surveillance Studies Centre
+    - Profesor sociologie a ředitel Surveillance Studies Centre.
 - name: Charles Sanders Peirce
   born: '1839'
   deceased: '1914'
@@ -824,7 +823,7 @@
     - 'Významný elektrotechnik, projektant, konstruktér, který  zásadně ovlivnil vývoj v oboru bezdrátové telegrafie.'
     - Věnoval se výrobě a přenosu střídavého proudu. Jeho asynchronní motor je v současné době nejrozšířenějším elektromotorem.
     - Jako první představil veřejnosti rádio a rádiové spojení.
-    - Na jeho počest je pojmenována jednotka magnetické indukce - tesla.
+    - Na jeho počest je pojmenována jednotka magnetické indukce – tesla.
     - 'Byl neúnavným experimentátorem, pro kterého byly objevy důležitější než úspěch.'
 - name: Marvin Lee Minsky
   born: '1927'
