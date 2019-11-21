@@ -1,4 +1,4 @@
-baseURL = "http://memex.netlify.com"
+baseURL = "https://kisk-memex.netlify.com"
 languageCode = "cs-cz"
 title = "Memex (beta)"
 
