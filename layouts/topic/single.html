@@ -1,0 +1,43 @@
+{{ define "content" }}
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Params.name }}</h1>
+        <p>(obsahová garance: <b>{{ .Params.guarantorname }}</b>)</p>
+    </header>
+    <div class="post-content">
+        <h2>Pro zájemce</h2>
+        <h3>Doporučená literatura</h3>
+        <ul>
+            {{ range .Params.literature }}
+            <li>{{ . | markdownify }}</li>
+            {{ end }}
+        </ul>
+        <h3>Doporučené aktivity</h3>
+        <ul>
+            {{ range .Params.activities }}
+            <li>{{ . | markdownify }}</li>
+            {{ end }}
+        </ul>
+        <h2>Okruhy</h2>
+        {{ range .Params.sets }}
+            <h3>[{{ .class }}] {{ .name }}</h3>
+            <h4>Otevřená otázka</h4>
+            <p>{{ .open }}</p>
+            <h4>Uzavřené otázky</h4>
+            <ol>
+                {{ range .closed }}
+                <li>
+                    <dl data-topic="{{ .class }}" class="question">
+                        <dt>{{ .question }}</dt>
+                        <dd>{{ .answer }}</dd>
+                    </dl>
+                </li>
+                {{ end }}
+            </ol>
+        {{ end }}
+    </div>
+</article>
+<p><a href="{{ .Site.Params.printurl }}/?generator=category&index=
+    {{- if lt .Params.class 10 }}0{{ end }}{{ .Params.class -}}
+">tisk</a></p>
+{{ end }}

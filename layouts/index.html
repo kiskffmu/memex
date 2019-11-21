@@ -1,0 +1,28 @@
+{{ define "content" }}
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Page.Title }}</h1>
+    </header>
+    <div class="post-content">
+        <div class="home">
+            <h1>Memex<sup>β</sup></h1>
+            <ul>
+                <li><a href="/milestones/">[0.1] Milníky</a>
+                <li><a href="/figures/">[0.2] Osobnosti</a>
+                <li><a href="/theories/">[0.3] Teorie</a>
+                    {{ range sort (where (where .Site.Pages "Section" "topic") "Kind" "page") "Params.class" "asc" }}
+                <li>
+                    <a href="{{ .RelPermalink }}">
+                        [{{ .Params.class }}]
+                        {{ .Params.name }}
+                    </a>
+                    {{ with .Params.guarantorname }}
+                    (garance {{ . }})
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</article>
+{{ end }}

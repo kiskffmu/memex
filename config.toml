@@ -1,0 +1,13 @@
+baseURL = "http://memex.netlify.com"
+languageCode = "cs-cz"
+title = "Memex (beta)"
+
+[blackfriday]
+fractions = false
+
+[params]
+email = "martinek@kisk.cz"
+description = "Karty s vědomostmi z informační vědy"
+printurl = "http://memex.jan-martinek.com"
+twitter_username = "kiskffmu"
+github_username = "kisk-ff-mu"
