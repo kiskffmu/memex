@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: content/uploads
+public_folder: /uploads
+display_url: 'https://kisk-memex.netlify.com'
+slug:
+  encoding: ascii
+  clean_accents: true
+collections:
+  - name: topics
+    label: Témata
+    editor:
+      preview: false
+    folder: content/topic
+    extension: .md
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "topic"}      
+      - {label: "Class", name: "class", widget: "hidden", default: "0"}      
+      - {label: "Název", name: "name", widget: "string" }      
+      - {label: "Jméno garanta", name: "guarantorname", widget: "string" }      
+      - {label: "Profil garanta v ISu", name: "guarantorurl", widget: "hidden" }
+      - label: Aktivity
+        name: activities
+        widget: text
+        field: {label: Aktivita, name: activity, widget: markdown}
+      - label: Literatura
+        name: literature
+        widget: text
+        field: {label: Literatura, name: lit, widget: markdown}
+      - label: Sady otázek
+        name: questions
+        widget: list
+        fields:
+          - {label: Číslo, name: class, widget: string}
+          - {label: Název, name: name, widget: string}
+          - {label: Uzavřená otázka, name: open, widget: markdown}
+          - label: Uzavřené otázky
+            name: closed
+            widget: list
+            fields:
+              - identifier_field: question
+              - {label: Otázka, name: question, widget: markdown}
+              - {label: Odpověď, name: answer, widget: markdown}
