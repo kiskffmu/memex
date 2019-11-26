@@ -26,10 +26,10 @@
                                 {{ $counter = add $counter $closedCount }}
                             {{ end }}
                         {{ end }}
-                        <b>{{ len .Params.sets }}</b> okruhů,
+                        <b>{{ with .Params.sets }}{{ len . }}{{ else }}0{{ end }}</b> okruhů,
                         <b>{{ $counter }}</b> uzavřených,
-                        <b>{{ len .Params.literature }}</b> zdroje,
-                        <b>{{ len .Params.activities }}</b> aktivity
+                        <b>{{ with .Params.literature }}{{ len . }}{{ else }}0{{ end }}</b> zdroje,
+                        <b>{{ with .Params.activities }}{{ len . }}{{ else }}0{{ end }}</b> aktivity
                     </li>
                 {{ end }}
             </ul>

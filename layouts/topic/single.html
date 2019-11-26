@@ -8,15 +8,22 @@
         <h2>Pro zájemce</h2>
         <h3>Doporučená literatura</h3>
         <ul>
-            {{ range .Params.literature }}
-            <li>{{ . | markdownify }}</li>
+            {{ with .Params.literature }}
+            <li>{{ with .lit1 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .lit2 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .lit3 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .lit4 }}{{ . | markdownify }}{{ end }}</li>
             {{ end }}
         </ul>
         <h3>Doporučené aktivity</h3>
         <ul>
-            {{ range .Params.activities }}
-            <li>{{ . | markdownify }}</li>
+            {{ with .Params.activities }}
+            <li>{{ with .act1 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .act2 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .act3 }}{{ . | markdownify }}{{ end }}</li>
+            <li>{{ with .act4 }}{{ . | markdownify }}{{ end }}</li>
             {{ end }}
+
         </ul>
         <h2>Okruhy</h2>
         {{ range .Params.sets }}

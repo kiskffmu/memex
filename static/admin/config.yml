@@ -13,6 +13,7 @@ collections:
     editor:
       preview: false
     folder: content/topic
+    format: frontmatter
     extension: .md
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "topic"}      
@@ -22,23 +23,31 @@ collections:
       - {label: "Profil garanta v ISu", name: "guarantorurl", widget: "hidden" }
       - label: Aktivity
         name: activities
-        widget: text
-        field: {label: Aktivita, name: activity, widget: markdown}
+        widget: object
+        fields: 
+          - {label: "Aktivita 1", name: act1, widget: markdown}
+          - {label: "Aktivita 2", name: act2, widget: markdown}
+          - {label: "Aktivita 3", name: act3, widget: markdown}
+          - {label: "Aktivita 4", name: act4, widget: markdown}
       - label: Literatura
         name: literature
-        widget: text
-        field: {label: Literatura, name: lit, widget: markdown}
+        widget: object
+        fields: 
+          - {label: "Zdroj 1", name: lit1, widget: markdown}
+          - {label: "Zdroj 2", name: lit2, widget: markdown}
+          - {label: "Zdroj 3", name: lit3, widget: markdown}
+          - {label: "Zdroj 4", name: lit4, widget: markdown}
       - label: Sady otázek
-        name: questions
+        name: sets
         widget: list
+        identifier_field: name
         fields:
-          - {label: Číslo, name: class, widget: string}
           - {label: Název, name: name, widget: string}
+          - {label: Číslo, name: class, widget: string}
           - {label: Uzavřená otázka, name: open, widget: markdown}
           - label: Uzavřené otázky
             name: closed
             widget: list
             fields:
-              - identifier_field: question
-              - {label: Otázka, name: question, widget: markdown}
+              - {label: Otázka, name: question, widget: text}
               - {label: Odpověď, name: answer, widget: markdown}
