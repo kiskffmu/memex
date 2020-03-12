@@ -22,11 +22,11 @@
                         {{ $counter := 0 }}
                         {{ range .Params.sets }}
                             {{ with .closed }}
-                                {{ $closedCount := len . }}
+                                {{ $closedCount := len (where . "remove" "ne" "true") }}
                                 {{ $counter = add $counter $closedCount }}
                             {{ end }}
                         {{ end }}
-                        <b>{{ with .Params.sets }}{{ len . }}{{ else }}0{{ end }}</b> okruhů,
+                        <b>{{ with .Params.sets }}{{ len (where . "remove" "ne" "true") }}{{ else }}0{{ end }}</b> okruhů,
                         <b>{{ $counter }}</b> uzavřených,
                         <b>{{ with .Params.literature }}{{ len . }}{{ else }}0{{ end }}</b> zdroje,
                         <b>{{ with .Params.activities }}{{ len . }}{{ else }}0{{ end }}</b> aktivity

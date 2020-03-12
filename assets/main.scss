@@ -10,16 +10,27 @@ body {
 	overflow: hidden;
 }
 
-h1, h2, h3, h4, p, li, blockquote {
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+blockquote {
 	font-family: "Open Sans", sans-serif;
 	max-width: 40rem;
 }
 
-h2, h3, h4 {
-	margin: 3em 0 .2em;
+h2,
+h3,
+h4 {
+	margin: 3em 0 0.2em;
 }
 
-h1, h2, h3, a {
+h1,
+h2,
+h3,
+a {
 	color: yellow;
 }
 
@@ -41,7 +52,8 @@ dt {
 	font-weight: bold;
 }
 
-.milestones b, .theories b {
+.milestones b,
+.theories b {
 	color: yellow;
 }
 
@@ -52,43 +64,50 @@ dt {
 
 .card {
 	position: fixed;
-	top: 0px; left: 0px;
-	right: 0px; bottom: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 	background: #111;
-	
-	background-position: center center fixed; 
+
+	background-position: center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-.card .question, .card .answer {
+.card .question,
+.card .answer {
 	font-family: "Open Sans", sans-serif;
 	background: #eee;
 	color: #111;
-	
+
 	text-align: center;
 	font-size: 40px;
 	overflow: hidden;
 	padding: 0px 40px;
 }
 
-.card .question p, .card .answer p {
+.card .question p,
+.card .answer p {
 	max-width: 60rem;
 	margin: 100px auto;
 }
 
 .card .answer {
-	background: #111;	
+	background: #111;
 	color: #eee;
 }
 
-.playButton, .card .closeButton {
+.playButton,
+.card .closeButton {
 	display: block;
 	position: absolute;
-	top: 30px; right: 30px;
-	width: 80px; height: 80px;
+	top: 30px;
+	right: 30px;
+	width: 80px;
+	height: 80px;
 	font-size: 100px;
 	line-height: 80px;
 	color: #eee;
@@ -108,30 +127,64 @@ dt {
 		margin: 10px auto;
 		padding: 0px;
 	}
-	
-	.card .question, .card .answer {
+
+	.card .question,
+	.card .answer {
 		box-sizing: border-box;
 		font-size: 20px;
 		padding: 0px 20px;
 	}
-	
+
 	.card .question p {
 		margin: 60px auto;
 	}
-	
+
 	.card .answer p {
 		margin: 40px auto;
 	}
-	
-	.playButton, .card .closeButton {
-		top: 20px; right: 20px;
-		width: 30px; height: 30px;
+
+	.playButton,
+	.card .closeButton {
+		top: 20px;
+		right: 20px;
+		width: 30px;
+		height: 30px;
 		font-size: 40px;
 		line-height: 30px;
 	}
 }
-    
+
 @for $i from 1 through 20 {
-	@if $i < 10 { $i: '0' + $i; }
-	.category#{$i} { background-image: url('/memex/img/#{$i}.png'); }
+	@if $i < 10 {
+		$i: "0" + $i;
+	}
+	.category#{$i} {
+		background-image: url("/memex/img/#{$i}.png");
+	}
+}
+
+.maxcount {
+	display: inline-block;
+	background: blue;
+	color: white;
+	border-radius: 1rem;
+	font-weight: bold;
+	font-size: 90%;
+	padding: 0.1rem 0.5rem;
+
+	&.maxcount-yellow {
+		background: yellow;
+		color: black;
+	}
+	&.maxcount-orange {
+		background: orange;
+	}
+	&.maxcount-red {
+		background: red;
+		color: white;
+	}
+}
+
+.card .maxcount {
+	display: none;
 }

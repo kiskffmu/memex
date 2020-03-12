@@ -29,14 +29,14 @@
         {{ range .Params.sets }}
             <h3>[{{ .class }}] {{ .name }}</h3>
             <h4>Otevřená otázka</h4>
-            <p>{{ .open }}</p>
+            <p>{{ .open }} {{ with .open }}{{ partial "max.html" (dict "text" . "max" 140) }}{{ end }}</p>
             <h4>Uzavřené otázky</h4>
             <ol>
-                {{ range .closed }}
+                {{ range (where .closed "remove" "ne" "true") }}
                 <li>
                     <dl data-topic="{{ .class }}" class="question">
-                        <dt>{{ .question }}</dt>
-                        <dd>{{ .answer }}</dd>
+                        <dt>{{ .question }} {{ partial "max.html" (dict "text" .question "max" 140) }}</dt>
+                        <dd>{{ .answer }} {{ partial "max.html" (dict "text" .answer "max" 140) }}</dd>
                     </dl>
                 </li>
                 {{ end }}

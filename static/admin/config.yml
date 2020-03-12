@@ -3,7 +3,7 @@ backend:
   branch: master
 media_folder: content/uploads
 public_folder: /uploads
-display_url: 'https://kisk-memex.netlify.com'
+display_url: "https://kisk-memex.netlify.com"
 slug:
   encoding: ascii
   clean_accents: true
@@ -12,42 +12,53 @@ collections:
     label: Témata
     editor:
       preview: false
-    folder: content/topic
+    folder: /content/topic
     format: frontmatter
     extension: .md
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "topic"}      
-      - {label: "Class", name: "class", widget: "hidden", default: "0"}      
-      - {label: "Název", name: "name", widget: "string" }      
-      - {label: "Jméno garanta", name: "guarantorname", widget: "string" }      
-      - {label: "Profil garanta v ISu", name: "guarantorurl", widget: "hidden" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "topic" }
+      - { label: "Class", name: "class", widget: "hidden", default: "0" }
+      - { label: "Název", name: "name", widget: "string" }
+      - { label: "Jméno garanta", name: "guarantorname", widget: "string" }
+      - {
+          label: "Profil garanta v ISu",
+          name: "guarantorurl",
+          widget: "hidden",
+        }
       - label: Aktivity
         name: activities
         widget: object
-        fields: 
-          - {label: "Aktivita 1", name: act1, widget: markdown}
-          - {label: "Aktivita 2", name: act2, widget: markdown}
-          - {label: "Aktivita 3", name: act3, widget: markdown}
-          - {label: "Aktivita 4", name: act4, widget: markdown}
+        fields:
+          - { label: "Aktivita 1", name: act1, widget: markdown }
+          - { label: "Aktivita 2", name: act2, widget: markdown }
+          - { label: "Aktivita 3", name: act3, widget: markdown }
+          - { label: "Aktivita 4", name: act4, widget: markdown }
       - label: Literatura
         name: literature
         widget: object
-        fields: 
-          - {label: "Zdroj 1", name: lit1, widget: markdown}
-          - {label: "Zdroj 2", name: lit2, widget: markdown}
-          - {label: "Zdroj 3", name: lit3, widget: markdown}
-          - {label: "Zdroj 4", name: lit4, widget: markdown}
+        fields:
+          - { label: "Zdroj 1", name: lit1, widget: markdown }
+          - { label: "Zdroj 2", name: lit2, widget: markdown }
+          - { label: "Zdroj 3", name: lit3, widget: markdown }
+          - { label: "Zdroj 4", name: lit4, widget: markdown }
       - label: Sady otázek
         name: sets
         widget: list
         identifier_field: name
         fields:
-          - {label: Název, name: name, widget: string}
-          - {label: Číslo, name: class, widget: string}
-          - {label: Uzavřená otázka, name: open, widget: markdown}
+          - { label: Název, name: name, widget: string }
+          - { label: Číslo, name: class, widget: string }
+          - { label: Uzavřená otázka, name: open, widget: markdown }
           - label: Uzavřené otázky
             name: closed
+            collapsed: false
             widget: list
             fields:
-              - {label: Otázka, name: question, widget: text}
-              - {label: Odpověď, name: answer, widget: markdown}
+              - { label: Otázka, name: question, widget: text }
+              - { label: Odpověď, name: answer, widget: markdown }
+              - {
+                  label: Nepoužívat,
+                  name: remove,
+                  widget: boolean,
+                  hint: "Zaškrtněte, pokud chcete otázku odebrat.",
+                }

@@ -1,0 +1,8 @@
+{{ $rel := div (len .text) (float .max) }}
+<span class="maxcount
+	{{ if lt 1 $rel }}maxcount-red{{ end }}
+	{{ if lt 0.9 $rel }}maxcount-orange{{ end }}
+	{{ if lt 0.8 $rel }}maxcount-yellow{{ end }}
+	">
+	{{ len .text }}/{{ .max }}
+</span>
